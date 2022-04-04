@@ -12,6 +12,9 @@ set.fileencoding = "utf8"
 -- Theme
 set.syntax = "ON"
 set.termguicolors = true
+vim.cmd([[colorscheme dracula]])
+vim.cmd([[hi Normal guibg=NONE ctermbg=NONE]])
+set.background='dark'
 
 -- Search
 set.ignorecase = true

@@ -30,4 +30,6 @@ return require('packer').startup(function()
     }
     use { 'windwp/nvim-autopairs' }
     use 'voldikss/vim-floaterm'
+    use 'Mofiqul/dracula.nvim'
+    use 'marko-cerovac/material.nvim'
 end)
