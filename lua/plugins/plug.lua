@@ -32,4 +32,5 @@ return require('packer').startup(function()
     use 'voldikss/vim-floaterm'
     use 'Mofiqul/dracula.nvim'
     use 'marko-cerovac/material.nvim'
+    use {'neoclide/coc.nvim', branch = 'release'}
 end)
