@@ -85,6 +85,11 @@ _G.packer_plugins = {
     path = "/home/ahmad/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
+  ["indent-blankline.nvim"] = {
+    loaded = true,
+    path = "/home/ahmad/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
+    url = "https://github.com/lukas-reineke/indent-blankline.nvim"
+  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/home/ahmad/.local/share/nvim/site/pack/packer/start/lualine.nvim",
@@ -94,6 +99,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/ahmad/.local/share/nvim/site/pack/packer/start/material.nvim",
     url = "https://github.com/marko-cerovac/material.nvim"
+  },
+  nerdcommenter = {
+    loaded = true,
+    path = "/home/ahmad/.local/share/nvim/site/pack/packer/start/nerdcommenter",
+    url = "https://github.com/preservim/nerdcommenter"
   },
   ["nvim-autopairs"] = {
     loaded = true,
@@ -130,6 +140,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/ahmad/.local/share/nvim/site/pack/packer/start/vim-floaterm",
     url = "https://github.com/voldikss/vim-floaterm"
+  },
+  ["vim-pony"] = {
+    loaded = true,
+    path = "/home/ahmad/.local/share/nvim/site/pack/packer/start/vim-pony",
+    url = "https://github.com/jakwings/vim-pony"
   }
 }
 

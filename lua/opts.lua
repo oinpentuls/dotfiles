@@ -2,7 +2,7 @@ local set = vim.opt
 
 -- Context
 set.number = true
-set.relativenumber = true
+-- set.relativenumber = true
 set.signcolumn = "yes"
 
 -- Filetypes

@@ -33,4 +33,7 @@ return require('packer').startup(function()
     use 'Mofiqul/dracula.nvim'
     use 'marko-cerovac/material.nvim'
     use {'neoclide/coc.nvim', branch = 'release'}
+    use 'preservim/nerdcommenter'
+    use 'jakwings/vim-pony'
+    use "lukas-reineke/indent-blankline.nvim"
 end)
