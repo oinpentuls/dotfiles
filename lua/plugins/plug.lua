@@ -14,26 +14,37 @@ return require('packer').startup(function()
         },
         config = function() require'nvim-tree'.setup {} end
     }
-    use {
-        'nvim-lualine/lualine.nvim',
-        requires = { 'kyazdani42/nvim-web-devicons', opt = true }
-    }
+
+    -- UTILITY
+    use 'voldikss/vim-floaterm'
     use {
         'nvim-telescope/telescope.nvim',
         requires = { {'nvim-lua/plenary.nvim'} }
     }
+
+    -- WRITING & READING
+    --use { 'windwp/nvim-autopairs' }
+    use 'Jiangmiao/auto-pairs'
+    use {'neoclide/coc.nvim', branch = 'release'}
+    use 'preservim/nerdcommenter'
+    use 'jakwings/vim-pony'
+
+    -- GIT
+    use 'APZelos/blamer.nvim'
     use {
         'lewis6991/gitsigns.nvim',
         config = function()
             require('gitsigns').setup()
         end
     }
-    use { 'windwp/nvim-autopairs' }
-    use 'voldikss/vim-floaterm'
-    use 'Mofiqul/dracula.nvim'
-    use 'marko-cerovac/material.nvim'
-    use {'neoclide/coc.nvim', branch = 'release'}
-    use 'preservim/nerdcommenter'
-    use 'jakwings/vim-pony'
+
+    -- THEME
+    use {
+        'nvim-lualine/lualine.nvim',
+        requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+    }
     use "lukas-reineke/indent-blankline.nvim"
+    use 'folke/tokyonight.nvim'
+    use 'dracula/vim'
+    use 'marko-cerovac/material.nvim'
 end)

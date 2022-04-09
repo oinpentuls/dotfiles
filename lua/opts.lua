@@ -12,7 +12,8 @@ set.fileencoding = "utf8"
 -- Theme
 set.syntax = "ON"
 set.termguicolors = true
-vim.cmd([[colorscheme dracula]])
+vim.g.tokyonight_style = "night"
+vim.cmd([[colorscheme tokyonight]])
 vim.cmd([[hi Normal guibg=NONE ctermbg=NONE]])
 set.background='dark'
 
