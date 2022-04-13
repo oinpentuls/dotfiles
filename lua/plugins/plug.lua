@@ -28,15 +28,19 @@ return require('packer').startup(function()
     use {'neoclide/coc.nvim', branch = 'release'}
     use 'preservim/nerdcommenter'
     use 'jakwings/vim-pony'
+    use 'othree/html5.vim'
+    use 'pangloss/vim-javascript'
+    use {'evanleck/vim-svelte', branch = 'main'}
 
     -- GIT
     use 'APZelos/blamer.nvim'
-    use {
-        'lewis6991/gitsigns.nvim',
-        config = function()
-            require('gitsigns').setup()
-        end
-    }
+    use 'airblade/vim-gitgutter'
+    --use {
+        --'lewis6991/gitsigns.nvim',
+        --config = function()
+            --require('gitsigns').setup()
+        --end
+    --}
 
     -- THEME
     use {

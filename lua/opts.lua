@@ -2,6 +2,7 @@ local set = vim.opt
 
 -- Context
 set.number = true
+set.wrap = false
 -- set.relativenumber = true
 set.signcolumn = "yes"
 
